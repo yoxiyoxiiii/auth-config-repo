@@ -16,3 +16,7 @@ spring:
     testWhileIdle: true
     testOnBorrow: false
     testOnReturn: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
